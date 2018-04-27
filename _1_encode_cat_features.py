@@ -6,7 +6,6 @@ from sklearn.utils import check_random_state
 import pylab 
 import sys
 import time
-sys.path.append('/home/zzhang/Downloads/xgboost/wrapper')
 import xgboost as xgb
 from joblib import dump, load, Parallel, delayed
 import utils
